@@ -1,0 +1,36 @@
+.food {
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    margin: 10px;
+    /* border-radius: 5px; */
+    background-color: #fff;
+    /* padding: 30px; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.inpt {
+    outline: none;
+    width: 40px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.btn {
+    background-color: #d32f2f;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}

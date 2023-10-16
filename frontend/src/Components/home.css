@@ -1,0 +1,56 @@
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5; /* Light grey background */
+}
+
+.header {
+  background-image: url("../../public/restaurant.png");
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #d32f2f; /* Dark red button */
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
